@@ -2,7 +2,7 @@ span {
   margin-right: 10px;
 }
 #contact {
-  float: right;
+  text-align: right;
 }
 body {
   margin: 30px;
