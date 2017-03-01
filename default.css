@@ -2,18 +2,33 @@ span {
   margin-right: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #contact {
   text-align: right;
+  color: white;
 }
 
 body {
   margin: 30px;
-  background-color: purple;
+  background-color: #8ed2d8;
 }
 
 #logo-image > img {
   width: 240px;
   display: block;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+#slogan > h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 65px;
+  font-weight: 100;
 }
