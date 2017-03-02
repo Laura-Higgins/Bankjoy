@@ -1,5 +1,5 @@
 span {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 a {
@@ -8,13 +8,38 @@ a {
 }
 
 #contact {
+  position: relative;
   text-align: right;
   color: white;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
 body {
-  margin: 30px;
+  position: relative;
+  height: 100%;
+}
+
+#all-content {
+  position: relative;
+}
+
+#background {
   background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#overlay {
+  position: absolute;
+  height: 100%;
+  background-color: #2b419d;
+  width: 100%;
+  opacity: 0.5;
 }
 
 #logo-image > img {
