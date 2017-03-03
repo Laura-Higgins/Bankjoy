@@ -28,7 +28,7 @@ body {
   left: 0;
 }
 
-#all-content {
+#top-content {
   position: relative;
 }
 
@@ -42,7 +42,7 @@ body {
   opacity: 0.5;
 }
 
-#logo-image > img {
+#logo > img {
   width: 240px;
   display: block;
   margin: auto;
@@ -110,7 +110,7 @@ body {
   left: -8%;
 }
 
-#container {
+#bottom-container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -127,13 +127,13 @@ body {
   position: relative;
 }
 
-#top.new-phones {
+#white.new-phones {
   right: -15%;
   width: 18%;
   z-index: 3;
 }
 
-#bottom.new-phones {
+#black.new-phones {
   left: 8%;
 }
 
